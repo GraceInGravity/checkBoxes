@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  $("form#transportation_survey").submit(function(event){
+  $("form#nerd-survey").submit(function(event){
     event.preventDefault();
     var userResponses = [];
     var nerdScore = 0;
@@ -25,7 +25,7 @@ $(document).ready(function(){
 
     });
 
-    $('#transportation_survey').hide();
+    $('#nerd-survey').hide();
     // function score(score) {
     //   total = total - 1;
     //
